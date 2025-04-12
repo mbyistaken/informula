@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: rgb(232, 236, 239);
+    font-family: Arial, sans-serif;
+  }
+
+  .top-bar {
+    background-color: #222;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 14px;
+    display: flex;       
+    justify-content: space-between; 
+    align-items: center;          
+    gap: 25px;            
+  }
+  .timerlar{   
+    display: flex;
+    gap: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;  
+  }
+  .giriskaydol{
+    display: flex;
+    gap: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;  
+  }
+  .giriskaydol a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;  
+  }
+  #giris:hover, #kaydol:hover {
+    color: #f20a0a;
+    transition: color 0.3s;
+
+  }
+  .navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 20px;
+    color: rgb(219, 5, 5);
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    display: flex;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    font-weight: 100;
+  }
+  
+  .nav-links li a:hover {
+    color: #f40909;
+  }
+  
+  
