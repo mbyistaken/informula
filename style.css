@@ -3,7 +3,7 @@ body {
     background-color: rgb(232, 236, 239);
     font-family: Arial, sans-serif;
   }
-
+  
   .top-bar {
     background-color: #222;
     color: #fff;
@@ -38,39 +38,37 @@ body {
     transition: color 0.3s;
 
   }
-  .navbar {
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px 20px;
-  }
-  
-  .logo {
-    font-size: 20px;
-    color: rgb(219, 5, 5);
-    font-weight: bold;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    display: flex;
-    padding: 0;
-  }
-  
-  .nav-links li a {
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s;
-    font-weight: 100;
-  }
-  
-  .nav-links li a:hover {
-    color: #f40909;
-  }
-  
-  
+  .f1-navbar {
+    background-color: #DC0000 !important;  /* F1 kırmızısı */
+      font-family: Orbitron, sans-serif;
+}
+.navbar-brand {
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.f1-navbar .nav-link,
+.f1-navbar .navbar-brand,
+.f1-navbar .dropdown-item {
+    color: #f3e5e5 !important;  /* Beyaz yazı */
+}
+
+.f1-navbar .nav-link:hover,
+.f1-navbar .dropdown-item:hover {
+    color: #000000 !important; /* Hover'da siyah yazı */
+}
+.f1-navbar .dropdown-menu {
+  background-color: #DC0000; /* F1 kırmızısı */
+  border: none; /* İstersen çerçevesiz şık görünüm */
+}
+
+.f1-navbar .dropdown-item {
+  color: #FFFFFF; /* Beyaz yazı */
+}
+
+.f1-navbar .dropdown-item:hover {
+  background-color: #000000; /* Hover arka plan: Siyah */
+  color: #FFFFFF !important; /* Yazı beyaz kalsın */
+}
+.navbar-nav {
+  margin-left: 40px; 
+}
